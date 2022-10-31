@@ -18,22 +18,34 @@
 #Find Mean, Mode, Median, Standard Deviation of the following data
 
 #data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+# import numpy as np
+# import statistics as st
+# data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+# mean=np.mean(data)
+# mode=st.mode(data)
+# median=np.median(data)
+# std=np.std(data)
+# print(f"mean is {mean}, mode is {mode}, median is {median} and standard deviation is {std}")
+
+
+#Question 4
+#create a 6x6 numpy array with random values and find the min and max values
 import numpy as np
-import statistics as st
-data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-mean=np.mean(data)
-mode=st.mode(data)
-median=np.median(data)
-std=np.std(data)
-print(f"mean is {mean}, mode is {mode}, median is {median} and standard deviation is {std}")
+numbers=np.array([
+    [4, 1, -7, 0, 14, 64],
+    [63, 72, -6, 32, -100, 3],
+    [11, 34, 653, 84, -500, 1],
+    [12, 9, 24, 18, 7, 90],
+    [31, 84, 76, 91, 40, 20],
+    [51, 63, 70, -20, 5, 47]
+])
+min=np.min(numbers)
+max=np.max(numbers)
+print(f"minimum value is {min} and maximum value is {max}")
 
 
 
-
-"""Question 4
-create a 6x6 numpy array with random values and find the min and max values
-
-Question 5
+"""Question 5
 create a 3D numpy array and reshape it to 2D
 
 Question 6
